@@ -13,7 +13,7 @@ const Profile = () => {
         header={<div>팔로잉 목록</div>}
         loadMore={<Button style={{ width: '100%' }}>더 보기</Button>}
         bordered
-        dataSource={['함우성', '바보', '노드버드오피셜']}
+        dataSource={['우성', '바보', '노드버드오피셜']}
         renderItem={item => (
           <List.Item style={{ marginTop: '20px' }}>
             <Card actions={[<Icon key="stop" type="stop" />]}><Card.Meta description={item} /></Card>
@@ -27,7 +27,7 @@ const Profile = () => {
         header={<div>팔로워 목록</div>}
         loadMore={<Button style={{ width: '100%' }}>더 보기</Button>}
         bordered
-        dataSource={['함우성', '바보', '노드버드오피셜']}
+        dataSource={['우성', '바보', '노드버드오피셜']}
         renderItem={item => (
           <List.Item style={{ marginTop: '20px' }}>
             <Card actions={[<Icon key="stop" type="stop" />]}><Card.Meta description={item} /></Card>
