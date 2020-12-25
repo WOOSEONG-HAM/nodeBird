@@ -13,6 +13,10 @@
   "dependencies": {
     "antd": "^3.17.0",
     "axios": "^0.18.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
     "next": "^8.1.0",
     "next-redux-wrapper": "^3.0.0-alpha.2",
     "prop-types": "^15.7.2",
@@ -30,7 +34,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.6.0",
-    "nodemon": "^1.19.0",
+    "nodemon": "^1.19.4",
     "webpack": "^4.30.0"
   }
 }
